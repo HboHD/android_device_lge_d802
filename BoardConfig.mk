@@ -18,9 +18,6 @@ include device/lge/g2-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := d802_defconfig
 
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.2-uber/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-
 TARGET_OTA_ASSERT_DEVICE := d802,g2,galbi,d800
 
 G2_DTS_TARGET := msm8974-g2-open_com

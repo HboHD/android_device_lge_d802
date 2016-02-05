@@ -23,10 +23,6 @@
          Empty is viewed as "all".  Only used on devices which
          don't support RIL_REQUEST_GET_RADIO_CAPABILITY
          format is UMTS|LTE|... -->
-    <string name="config_radio_access_family" translatable="true">LTE|WCDMA|GSM</string>
-    
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
-
+    <string name="config_radio_access_family" translatable="false">LTE|WCDMA|GSM</string>
 
 </resources>

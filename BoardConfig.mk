@@ -16,7 +16,14 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := d802_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_d802_defconfig
+
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 5.3
 
 TARGET_OTA_ASSERT_DEVICE := d802,g2,galbi,d800
 

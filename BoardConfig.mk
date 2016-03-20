@@ -16,7 +16,7 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_d802_defconfig
+TARGET_KERNEL_CONFIG := tesla_d802_defconfig
 
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3/bin
